@@ -4,7 +4,8 @@
   "description": "TodoList",
   "main": "app.js",
   "scripts": {
-    "start": "webpack-dev-server --output-public-path=/build/",
+    "start": "nodemon server",
+    "webpack": "webpack-dev-server --output-public-path=/build/",
     "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
